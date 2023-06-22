@@ -19,7 +19,7 @@ def read_input_from_file(file_path):
     with open(file_path, "r") as file:
         return file.read()
 
-# Read input from the "personal-info.txt" file
+
 user_input = read_input_from_file("C:\\Users\\ozera\\OneDrive\\Masaüstü\\personal-info.txt")
 
 # Function to calculate the hash of the data
